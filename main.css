@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{box-sizing: border-box;margin: 0;padding: 0;font-family: 'Overpass', sans-serif;}
+.attribution { font-size: 11px; text-align: center; position: fixed;bottom: 0;margin-bottom: 2%; color: white;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body{
+    background-color:#141519;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.hidden{
+    display: none;
+}
+
+.container, .ty{
+    background-image: linear-gradient(180deg, #272e38 -50%, #171e28  100%);
+    border-radius: 2em;
+    padding: 40px;
+    max-width: 450px;
+} 
+
+.icon{
+    background-color: #272e38;
+    height: 50px;
+    width: 50px;
+    border-radius:100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    justify-self: start;
+    margin-bottom: 40px;
+}
+
+
+h1,h2{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+}
+
+
+p{
+    color: grey;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+.btn{
+    color: white;
+    font-size: 15pt;
+    font-weight: 700;
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    height: 50px;
+    border-radius: 2em;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: whitesmoke;
+}
+
+.r-gp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    background-color: #272e38;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+
+.rating:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.rating:focus{
+    background-color: gray;
+    color: white;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+.rate-con{
+    color: hsl(25, 91%, 65%);
+    background-color: #272e38;
+    padding: .5em 1em;
+    border-radius: 1em;
+    margin: 2em;
+}
+.ty{
+    text-align: center;
+}
